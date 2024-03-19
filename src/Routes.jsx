@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './paginas/Home';
 import Proyects from './paginas/Projects';
 import Resume from './paginas/Resume';
+import './App.css'
 
 
 function App() {
