@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+//import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import {studies, experiences} from '../data/resume'
 
@@ -28,7 +28,7 @@ function Resume() {
             </li>
         ))}
         </ul>
-        <Link to={'/'}>Volver</Link>
+        <Link to='/'>Volver</Link>
       </>
     );
   }

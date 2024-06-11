@@ -6,7 +6,7 @@ import Resume from './paginas/Resume';
 import './App.css'
 
 
-function App() {
+function RoutesApp() {
   return (
     <Router>
       <Routes>
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default RoutesApp;
